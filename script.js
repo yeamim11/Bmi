@@ -31,19 +31,20 @@ button.addEventListener("click",function () {
             result.style.color = "red" 
             p.style.color = "red"
 
-        }else if( bmi >= 18.5 && bmi <= 24.9){
+        }else if( bmi > 18.5 && bmi < 24.9){
             p.innerHTML="Healthy Range"
             result.style.color = "green"
             p.style.color = "green"
 
 
-        }else if(bmi > 24.9)
+        }else if(bmi > 24.9){
             p.innerHTML="OverWeight"
             result.style.color = "red" 
             p.style.color = "red"
+        }
 
 
-
+  
     }
 
 
